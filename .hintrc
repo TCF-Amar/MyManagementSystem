@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust",
+          "-webkit-tap-highlight-color",
+          "break-after: page",
+          "break-after: column",
+          "break-inside: avoid-page",
+          "break-before: column",
+          "break-before: page",
+          "width: fit-content"
+        ]
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ]
+  }
+}
